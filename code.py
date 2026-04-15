@@ -10,7 +10,6 @@ from adafruit_circuitplayground import cp
 
 # setup
 kbd = Keyboard(usb_hid.devices)
-# mouse = Mouse(usb_hid.devices)
 
 # sensors
 sensorA = analogio.AnalogIn(board.A4)
