@@ -62,19 +62,6 @@ while True:
         if space_pressed:
             kbd.release(Keycode.SPACE)
             space_pressed = False
-    # # mouse
-    # x, y, z = cp.acceleration
-
-    # move_x = int(x * 2)
-    # move_y = int(y * 2)
-
-    # # stop the mouse
-    # if abs(move_x) < 2:
-    #     move_x = 0
-    # if abs(move_y) < 2:
-    #     move_y = 0
-
-    # mouse.move(move_x, move_y)
 
     # delay
     time.sleep(0.01)
